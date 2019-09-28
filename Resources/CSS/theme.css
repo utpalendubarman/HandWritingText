@@ -1,0 +1,54 @@
+@font-face{
+	font-family:HandWritting;
+	src:url("Resources/Fonts/Handwritting-Regular.ttf");
+}
+body{
+	background-color:#1ab2ff;
+}
+.menubar{
+	height:90px;
+	width:100%;
+	background-color:#e6f7ff;
+	margin:auto;
+	margin-top:0px;
+
+}
+.container{
+	width:595px;
+	height:842px;
+	background-color:white;
+	margin:auto;
+	margin-top:30px;
+	border:1px solid black;
+}
+.footer{
+	width:100%;
+	height:40px;
+	margin:auto;
+	color:white;
+	font-style:italic;
+}
+.textEditor{
+	height:96%;
+	width:96%;
+	padding:2% 2% 2% 2%;
+	font-family:HandWritting;
+	font-size:30px;
+}
+.pagesetup{
+	height:88px;
+	width:168px;
+	float:left;
+}
+.a4-page-icon{
+	height:40px;
+	width:auto;
+	float:left;
+	margin-right:10px;
+}
+.a4-page-icon:hover{
+	cursor:hand;
+}
+.bold{
+	font-weight:bold;
+}
